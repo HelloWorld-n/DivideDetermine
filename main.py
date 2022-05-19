@@ -23,4 +23,4 @@ class DivideDetermine:
 
 
 if __name__ == "__main__":
-	DivideDetermine.main(int(eval(input())))
+	DivideDetermine.main(int(eval(input("Enter integer of choice: "))))
