@@ -5,7 +5,6 @@ class DivideDetermine:
 	@staticmethod
 	def main(n):
 		print(1)
-		print()
 		tm = []
 		sroot = sqrt(n)
 		for i in range(2, ceil(sroot)):
@@ -16,11 +15,7 @@ class DivideDetermine:
 			print(floor(sroot))
 		for i in tm:
 			print(n // i)
-			
-		print()
 		print(n)
 		
-
-
 if __name__ == "__main__":
 	DivideDetermine.main(int(eval(input("Enter integer of choice: "))))
