@@ -17,5 +17,8 @@ class DivideDetermine:
 			print(n // i)
 		print(n)
 		
-if __name__ == "__main__":
-	DivideDetermine.main(int(eval(input("Enter integer of choice: "))))
+while __name__ == "__main__":
+	try:	
+		DivideDetermine.main(int(eval(input("Enter integer of choice: "))))
+	except Exception as exception:
+		print(exception)
